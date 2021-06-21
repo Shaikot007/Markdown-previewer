@@ -8,9 +8,9 @@ Marked.setOptions({
 });
 
 const Preview = (props) => {
-  return (     
-      <div id="preview" className="markdown-body" dangerouslySetInnerHTML={{__html: Marked(props.text)}} />
-    )
-}
+  return (
+    <div id="preview" className="markdown-body" dangerouslySetInnerHTML={{ __html: Marked(props.text) }} />
+  )
+};
 
 export default Preview;
